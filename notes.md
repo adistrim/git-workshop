@@ -78,6 +78,8 @@ Add all changes in the current directory to the staging area.
 
 - ```git push -u origin brach-name``` Slighty helpful when you don't want to use whole long cmd. When ```-u``` is used it saves the upstream. So next time only ```git push``` is used.
 
+- ```git pull remote-link branch-name``` Loads the remote repository's specific branch
+
 - ```git pull origin branch-name``` Download changes from a remote repository and merge them into your local branch.
 
 ### Undoing changes
