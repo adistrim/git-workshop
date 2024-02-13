@@ -86,5 +86,6 @@ Add all changes in the current directory to the staging area.
 - ```git reset file-name``` Undo the add for a specific file.
 - ```git reset``` Undo the add for the whole project folder.
 - ```git reset HEAD~1``` Go to previous commit.
+- ```git reset -hard HEAD~1``` Does the changes in code editor too. (Be prepared before using it)
 - ```git reset commit-hash``` Go to specific commit. ```commit-hash``` can be found using ```git log```.
 - ```git reset --hard commit-hash``` Does the changes in code editor too.
